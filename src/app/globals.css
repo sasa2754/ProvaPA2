@@ -5,4 +5,23 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --backgroundNav: #ee4001;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #ee4001;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #be3504;
+  cursor: pointer;
+}
+
+::-webkit-scrollbar-track {
+  background-color: rgba(0, 153, 255, 0.445);
 }
