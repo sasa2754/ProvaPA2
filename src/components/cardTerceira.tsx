@@ -22,3 +22,4 @@ export const Card = ({id, name, ki, maxKi, race, gender, description, image} : I
         </div>
     )
 }
+// a
