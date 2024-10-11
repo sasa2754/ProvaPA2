@@ -91,8 +91,8 @@ const AxiosPage = () => {
                 <div className="flex flex-row flex-wrap gap-5 items-center justify-center pt-5">
                     <div className="flex flex-col gap-2 items-center">
                         <div className="flex flex-row gap-5 flex-wrap items-center justify-center">
-                            <input className="border-solid border-2 border-black rounded-md p-1 w-96 text-black mt-5" type="text" value={page} onChange={(e) => setPage(e.target.value)} placeholder="1/6"/>
-                            <input className="border-solid border-2 border-black rounded-md p-1 w-96 text-black mt-5" type="text" value={name} onChange={(e) => setName(e.target.value)} placeholder="Goku"/>
+                            <input className="border-solid border-2 border-black rounded-md p-1 w-96 text-black mt-5 dark:bg-blue-800 dark:text-white dark:border-white" type="text" value={page} onChange={(e) => setPage(e.target.value)} placeholder="1/6"/>
+                            <input className="border-solid border-2 border-black rounded-md p-1 w-96 text-black mt-5 dark:bg-blue-800 dark:text-white dark:border-white" type="text" value={name} onChange={(e) => setName(e.target.value)} placeholder="Goku"/>
                         </div>
                         {erro && <h5 className="font-semibold">{erroMessage}</h5>}
                     </div>

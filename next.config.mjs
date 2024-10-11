@@ -6,7 +6,7 @@ const nextConfig = {
     async rewrites() {
         return [
             {
-                source: "/",
+                source: "/fetch-page",
                 destination: "/primeira-rota",
             },
             {
@@ -20,6 +20,10 @@ const nextConfig = {
             {
                 source: "/easterEgg",
                 destination: "/easterEgg"
+            },
+            {
+                source: "/",
+                destination: "/home",
             }
         ];
     }

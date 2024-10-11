@@ -26,9 +26,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className="">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-blue-50 overflow-x-hidden`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-blue-50 dark:bg-blue-950 overflow-x-hidden`}
       >
         <Menu op1="fetchPage" op2="axiosPage" op3="fetchServer"/>
         {children}

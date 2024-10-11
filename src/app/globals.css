@@ -3,9 +3,12 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #e4f0fc;
   --backgroundNav: #ee4001;
+  --backgroundDark: #171717;
+  --backgroundNavDark: #a32f05;
+  --card: #ffffff;
+  --cardDark: #171717;
 }
 
 ::-webkit-scrollbar {

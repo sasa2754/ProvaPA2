@@ -3,4 +3,5 @@ export enum ROUTES {
     axiosPage = "/segunda-rota",
     fetchServer = "/terceira-rota",
     easterEgg = "/easterEgg",
+    home = "/home",
 }
